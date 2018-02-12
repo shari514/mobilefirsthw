@@ -51,6 +51,13 @@ img{
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
     img {
-      width: 350px;
+      width: 100%;
+      display: block;
+
+    }
+    .container{
+      max-width: 745px;
+      display: block;
+      margin: 0 auto;
     }
 }
